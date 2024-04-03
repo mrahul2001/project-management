@@ -1,0 +1,67 @@
+/* LandingPage.css */
+
+.landing-page-container {
+    margin-top: 80px;
+    display: flex;
+    align-items: justify;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size:x-small;
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    flex: 1;
+    max-width: 40%;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

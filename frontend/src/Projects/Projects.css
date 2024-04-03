@@ -1,0 +1,11 @@
+.project-details {
+    margin-top: 60px;
+    position: relative;
+}
+
+.add-members-icon {
+    position: absolute;
+    top: 5px; 
+    right: 20px; 
+    cursor: pointer;
+  }

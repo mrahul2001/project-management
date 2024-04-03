@@ -1,0 +1,38 @@
+.tasks-container {
+display: flex;
+justify-content: space-evenly;
+overflow-x: hidden;
+}
+.task-column {
+flex: 0 0 auto;
+width: 300px; 
+padding: 20px;
+}
+.task-column.to {
+background-color: lightblue;
+}
+
+.task-column.in {
+background-color: lightcoral;
+}
+
+.task-column.int {
+background-color: lightyellow;
+}
+
+.task-column.done {
+background-color: lightgreen;
+}
+.task-list {
+max-height: 400px;
+overflow-y: hidden;
+}
+.task-list:hover {
+    overflow-y: auto;
+}
+.task-item {
+background-color: #f4f4f4;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 5px;
+} 

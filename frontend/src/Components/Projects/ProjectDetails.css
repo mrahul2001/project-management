@@ -1,0 +1,48 @@
+.project-details {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  /* .description {
+    color: #666;
+    margin-bottom: 10px;
+    align-items: left;
+  } */
+  
+   .owner, .createdAt, .updatedAt {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .members-heading {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .members-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .member {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .no-members {
+    color: #666;
+  }
+  
+  .see-tasks-btn {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
